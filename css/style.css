@@ -1,0 +1,49 @@
+body {
+    background-image: url('../img/questionmark.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+header {
+    text-align: center;
+}
+
+#main {
+    background-color: rgba(98, 106, 105, 0.8);
+    display: inline-block; 
+    font-size: 1.5rem;    
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#main input {
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+#main button {
+  font-size: 1.2rem;
+  padding: 8px 15px;
+  margin: 10px;
+  cursor: pointer; 
+}
+
+#main button:hover {
+  background-color: #4CAF50;
+  color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+#main button:active {
+  transform: translateY(2px);
+  color: black;;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#feedback {
+    margin-top: 20px;
+    font-weight: bold;
+    text-shadow: 0cm 0cm 0.2cm rgb(115, 185, 152);
+}
